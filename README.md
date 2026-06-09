@@ -4,7 +4,7 @@
 **Contribution Number:** 1 
 **Student:** Esha Premdas
 **Issue:** https://github.com/transmission/transmission/issues/2048 
-**Status:** Phase I [Complete]
+**Status:** Phase I Complete
 
 ---
 
