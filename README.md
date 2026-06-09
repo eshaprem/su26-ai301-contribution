@@ -1,15 +1,18 @@
-# Contribution [#]: [Issue Title]
+# Contribution 1: "Torrent Options" dialog doesn't show the name of the torrent/magnet
+ #2048
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** 1 
+**Student:** Esha Premdas
+**Issue:** https://github.com/transmission/transmission/issues/2048 
+**Status:** Phase I [Complete]
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I chose this issue because I've never worked with "torrent files" before, or anything of this sort dealing with transmissions. It's a whole new world to me that I'm interested in exploring. I personally wish to work on this issue as it has to do with underlyinh code/bugs that deal with visibility, or rather display. Coding displays and assissting in troubleshooting them seems quite fun. 
+
+By attempting to solve this issue, and doing research on it, I hope to broaden my code and experience with varying coding languages, especially C as mentioned in this issue description as one of the 3 languages it deals with. I'm also curious on how transmissions work, and more importantly what they are. While this is all brand new to me, it'll help broaden my knowledge on both the tech industry and research in it.
 
 ---
 
