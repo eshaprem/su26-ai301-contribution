@@ -4,7 +4,7 @@
 **Contribution Number:** 1 
 **Student:** Esha Premdas
 **Issue:** https://github.com/transmission/transmission/issues/2048 
-**Status:** Phase I Complete
+**Status:** Phase II In-Progress
 
 ---
 
@@ -44,9 +44,9 @@ By attempting to solve this issue, and doing research on it, I hope to broaden m
 
 ### Steps to Reproduce
 
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+1. Launch the transmission.
+2. Add multiple torrents using magnet links.
+3. Wait for the "Torrent Options" dialogue to appear.
 
 ### Reproduction Evidence
 
@@ -67,6 +67,14 @@ By attempting to solve this issue, and doing research on it, I hope to broaden m
 [High-level description of your fix approach]
 
 ### Implementation Plan
+
+Solution plan includes:
+- Identifying the source code responsible for both creating and displaying "Torrent Options" dialog.
+- Trace how the torrent metadata is passed to the dialog when a torrent is added.
+- Modify the dialog UI to display the torrent name in a visible location (window title or label).
+- Verify that the name is shown for both torrent files and magnet links when the info is available.
+- Test it out by adding multiple torrents simultaneously and confirming that each dialog clearly identifies the associated torrent.
+- Ensure that the changes made doesn't affect existing dialog functionality or torrent additions.
 
 Using UMPIRE framework (adapted):
 
