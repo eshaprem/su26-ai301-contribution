@@ -1,18 +1,15 @@
-# Contribution 1: "Torrent Options" dialog doesn't show the name of the torrent/magnet
- #2048
+# Contribution 1: Fork, Commit, Merge - Easy Issue 1 (C++) #7415
 
 **Contribution Number:** 1 
 **Student:** Esha Premdas
-**Issue:** https://github.com/transmission/transmission/issues/2048 
-**Status:** Phase II In-Progress
+**Issue:** https://github.com/fork-commit-merge/fork-commit-merge/issues/7415 
+**Status:** Phase I - Complete
 
 ---
 
 ## Why I Chose This Issue
 
-I chose this issue because I've never worked with "torrent files" before, or anything of this sort dealing with transmissions. It's a whole new world to me that I'm interested in exploring. I personally wish to work on this issue as it has to do with underlyinh code/bugs that deal with visibility, or rather display. Coding displays and assissting in troubleshooting them seems quite fun. 
-
-By attempting to solve this issue, and doing research on it, I hope to broaden my code and experience with varying coding languages, especially C as mentioned in this issue description as one of the 3 languages it deals with. I'm also curious on how transmissions work, and more importantly what they are. While this is all brand new to me, it'll help broaden my knowledge on both the tech industry and research in it.
+The issue I chose is simply creating a program to convert temperatures from Celsius to Farenheit. While this is fairly simple, I believe it's still important as people all around the world and online use different degrees. This way it's easier to understand what temperature one is saying, whether it be in Celsius or Farenheit, to the opposing person who happens to use the opposing degree. I also chose this issue to make sure I still understand and implement the basic coding skills needed, which proves to be important as you move higher up for efficiency and logical purposes.
 
 ---
 
@@ -44,10 +41,6 @@ By attempting to solve this issue, and doing research on it, I hope to broaden m
 
 ### Steps to Reproduce
 
-1. Launch the transmission.
-2. Add multiple torrents using magnet links.
-3. Wait for the "Torrent Options" dialogue to appear.
-
 ### Reproduction Evidence
 
 - **Commit showing reproduction:** [Link to commit in your fork]
@@ -57,6 +50,7 @@ By attempting to solve this issue, and doing research on it, I hope to broaden m
 ---
 
 ## Solution Approach
+
 
 ### Analysis
 
@@ -68,13 +62,7 @@ By attempting to solve this issue, and doing research on it, I hope to broaden m
 
 ### Implementation Plan
 
-Solution plan includes:
-- Identifying the source code responsible for both creating and displaying "Torrent Options" dialog.
-- Trace how the torrent metadata is passed to the dialog when a torrent is added.
-- Modify the dialog UI to display the torrent name in a visible location (window title or label).
-- Verify that the name is shown for both torrent files and magnet links when the info is available.
-- Test it out by adding multiple torrents simultaneously and confirming that each dialog clearly identifies the associated torrent.
-- Ensure that the changes made doesn't affect existing dialog functionality or torrent additions.
+
 
 Using UMPIRE framework (adapted):
 
